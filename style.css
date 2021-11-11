@@ -101,7 +101,7 @@ a{
     height: 250px;
     width: 240px;
 }
-button{
+.button{
     padding: 10px 50px;
     font-size: 20px;
     border-radius: 20px;
@@ -115,11 +115,63 @@ button:hover{
 .hide{
     display: none;
 }
+.background{
+    background-color:#454444;
+    border:5px solid black;
+}
+.text-color{
+    color:white;
+    line-height:30px;
+}
+.bottom-border{
+    padding-bottom: 10px;
+    border-bottom: 3px solid white;
+}
+.flex{
+    display: flex;
+}
+.col-8{
+    flex-basis: 25%;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 50px;
+}
+.col-10{
+    flex-basis: 25%;
+    padding: 10px;
+    width: 60%;
+    margin-bottom: 50px;
+    transition:0.5s;
+}
+.bottom{
+    border-bottom: 2px solid white;
+    margin-right: 70%;
+    text-align: center;
+    align-items: center;
+}
+.button-size{
+    background-color:white;
+    padding: 10px 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color:black;
+    width:90%;
+    border-radius: 10px;
+}
+.finish{
+    text-align: center;
+    line-height:35px;
+    color: white;
+    
+}
 @media screen and (max-width:800px) {
     nav{
         display:none;
     }
     .hide{
+        display: block;
+    }
+    .flex{
         display: block;
     }
 
